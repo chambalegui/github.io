@@ -17,23 +17,18 @@
       color: #333;
       background-color: #f9fafc;
     }
-
     header {
-      //background: linear-gradient(135deg, #4db8e8, #3aa0d1);
-      color: white;
-      //padding: 2rem 1rem;
-      text-align: center;
-      height:200px;
+      display: flex;
+      justify-content: center;   /* Centra horizontalmente */
+      align-items: center;       /* Centra verticalmente */
+      height: 120px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
-
+    
     header img {
       width: 200px;
       height: 200px;
-     // border-radius: 12px;
-     // object-fit: cover;
-      margin-bottom: 0.8rem;
-      //box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+      object-fit: contain; /* Evita recortes y mantiene proporción */
     }
 
     h1 {
